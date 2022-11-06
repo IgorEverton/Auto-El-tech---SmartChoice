@@ -7,7 +7,7 @@ export default function Cadastro_juridica(){
         <div>
     <form>
         <fieldset>
-            <legend>Preencha seus dados</legend>
+            <legend>Preencha seus dados - Pessoa Jurídica</legend>
             <label for="nm_fantasia">Nome Fantasia:
                 <input id="nm_fantasia"type="text" name="nome" placeholder="Digite o nome da sua empresa"></input>
             </label>

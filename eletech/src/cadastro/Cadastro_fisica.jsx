@@ -7,7 +7,7 @@ export default function Cadastro_fisica() {
     <div>
         <form method="get">
         <fieldset>
-            <legend>Preencha seus dados</legend>
+            <legend>Preencha seus dados - Pessoa Fisica</legend>
             <label for="nm_pessoa">Nome:
                 <input id="nm_pessoa" type="text" name="nome" placeholder="Digite seu nome"></input>
             </label>
