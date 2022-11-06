@@ -5,28 +5,30 @@ import React from 'react';
 export default function Cadastro_fisica() {
   return(
     <div>
-        <form>
+        <form method="get">
         <fieldset>
             <legend>Preencha seus dados</legend>
-            <label>Nome:
-                <input type="text" name="nm_pessoa"></input>
+            <label for="nm_pessoa">Nome:
+                <input id="nm_pessoa" type="text" name="nome" placeholder="Digite seu nome"></input>
             </label>
 
-            <label>Digite um login:
-                <input type="text" name="ds_login"></input>
+            <label for="ds_login">Login:
+                <input id="ds_login" type="text" name="login" placeholder="Digite um login"></input>
             </label>
 
-            <label>Email:
-                <input type="email" name="ds_email"></input>
+            <label for="ds_email">Email:
+                <input id ="ds_email" type="email" name="email" placeholder="Digite seu email"></input>
             </label>
 
-            <label>CPF:
-                <input type="number" name="ds_email"></input>
+            <label for="ds_email">CPF:
+                <input id="ds_email" type="number" name="cpf" placeholder="Digite seu cpf"></input>
             </label>
 
-            <label>Data de nascimento:
-                <input type="date" name="dt_nascimento"></input>
+            <label for="dt_nascimento">Data de nascimento:
+                <input id="dt_nascimento" type="date" name="data_nascimento" placeholder="Digite sua data de nascimento"></input>
             </label>
+
+            <input type="button" value="Enviar"/>
 
            
 

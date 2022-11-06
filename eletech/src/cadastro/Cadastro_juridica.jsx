@@ -8,29 +8,31 @@ export default function Cadastro_juridica(){
     <form>
         <fieldset>
             <legend>Preencha seus dados</legend>
-            <label>Nome Fantasia:
-                <input type="text" name="nm_fantasia"></input>
+            <label for="nm_fantasia">Nome Fantasia:
+                <input id="nm_fantasia"type="text" name="nome" placeholder="Digite o nome da sua empresa"></input>
             </label>
 
-            <label>Digite um login:
-                <input type="text" name="ds_login"></input>
+            <label for="ds_login">Login:
+                <input id="ds_login"type="text" name="login" placeholder="Digite um login"></input>
             </label>
 
-            <label>Email:
-                <input type="email" name="ds_email"></input>
+            <label for="ds_email">Email:
+                <input id="ds_email" type="email" name="email" placeholder="Digite seu email"></input>
             </label>
 
-            <label>CNPJ:
-                <input type="number" name="nr_cnpj"></input>
+            <label for="nr_cnpj">CNPJ:
+                <input id="nr_cnpj" type="number" name="cnpj" placeholder="Digite o número do seu CNPJ"></input>
             </label>
 
-            <label>IE:
-                <input type="number" name="nr_ie"></input>
+            <label for="nr_ie">IE:
+                <input id="nr_ie"type="number" name="numero ie" placeholder="Digite o número de inscrição estadual"></input>
             </label>
 
-            <label>Data de fundação:
-                <input type="date" name="dt_fundacao"></input>
+            <label for="dt_fundacao">Data de fundação:
+                <input id="dt_fundacao"type="date" name="data_fundacao"></input>
             </label>
+
+            <input type="button" value="Enviar" />
 
            
 
